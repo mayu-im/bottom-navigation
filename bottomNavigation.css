@@ -1,0 +1,27 @@
+.menu {
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  left: 0;
+  bottom: 0;
+  background: white;
+  width: 100%;
+}
+.menu li {
+  display: table;
+  table-layout: fixed;
+  width: 15%;
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+  font-size: 50px;
+}
+.menu a span {
+  display: block;
+  font-size: 20px;
+}
+.main {
+  text-align: center;
+  font-size: 50px;
+  background: rgb(241, 158, 158);
+}
